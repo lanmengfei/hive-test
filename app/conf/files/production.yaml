@@ -1,0 +1,18 @@
+DEBUG: false
+LOG_LEVEL: WARNING
+# SECRET_KEY 务必通过环境变量 APP_SECRET_KEY 注入
+
+DATABASE:
+  HOST: db.internal
+  NAME: app
+  USER: app
+  # PASSWORD 通过 APP_DATABASE__PASSWORD 注入
+  POOL_SIZE: 20
+
+REDIS:
+  HOST: redis.internal
+
+CORS:
+  ENABLED: true
+  ORIGINS:
+    - https://example.com
