@@ -1,0 +1,17 @@
+DEBUG: true
+LOG_LEVEL: DEBUG
+
+DATABASE:
+  HOST: 127.0.0.1
+  NAME: app_dev
+  USER: app
+  PASSWORD: ""
+
+REDIS:
+  HOST: 127.0.0.1
+
+CORS:
+  ENABLED: true
+  ORIGINS:
+    - http://localhost:3000
+    - http://127.0.0.1:3000

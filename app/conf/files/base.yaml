@@ -1,0 +1,15 @@
+# 各环境共享的基础配置
+LOG_LEVEL: INFO
+JSON_SORT_KEYS: false
+
+DATABASE:
+  PORT: 5432
+  POOL_SIZE: 5
+
+REDIS:
+  PORT: 6379
+  DB: 0
+
+CORS:
+  ENABLED: false
+  ORIGINS: []

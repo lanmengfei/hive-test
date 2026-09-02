@@ -1,0 +1,19 @@
+DEBUG: false
+TESTING: true
+LOG_LEVEL: WARNING
+SECRET_KEY: test-secret-key
+
+DATABASE:
+  HOST: 127.0.0.1
+  NAME: app_test
+  USER: app
+  PASSWORD: ""
+  POOL_SIZE: 1
+
+REDIS:
+  HOST: 127.0.0.1
+  DB: 15
+
+CORS:
+  ENABLED: false
+  ORIGINS: []
